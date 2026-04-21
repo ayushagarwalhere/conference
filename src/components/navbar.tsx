@@ -19,7 +19,7 @@ const CONFERENCE_DROPDOWN_LINKS = [
   { label: "Venue", href: "/conference/venue" },
   { label: "Accommodation", href: "/conference/accommodation" },
   { label: "Nearby Places", href: "/conference/nearby_places" },
-  { label: "Partners", href: "/conference/partners" },
+  { label: "Partners", href: "/conference/partner" },
 ];
 
 export default function Navbar() {
@@ -468,7 +468,7 @@ export default function Navbar() {
           ))}
         </ul>
         <a
-          href="/info_author.tsx"
+          href="/info_author"
           className="civcs-drawer-cta"
           onClick={() => setOpen(false)}
         >
